@@ -6,7 +6,7 @@ from contextlib import contextmanager
 DB_CONFIG = {
     'dbname': 'atm_db',
     'user': 'postgres',
-    'password': 'Aniket123',
+    'password': 'Password',
     'host': 'localhost',
     'port': 5432
 }
