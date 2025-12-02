@@ -14,9 +14,6 @@ load_dotenv()
 EMAIL_USER = os.getenv("EMAIL_USER")
 EMAIL_PASS = os.getenv("EMAIL_PASS")
 
-# print(f"Loaded user: {EMAIL_USER}")
-# print(f"Password present: {EMAIL_PASS is not None}")
-
 
 def fetch_quote():
     """Fetch random quote from ZenQuotes API"""
