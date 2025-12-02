@@ -36,8 +36,10 @@ All operations performed using `psycopg2`.
 ---
 
 ## 🗂 Project Structure
+```
 
 ATM/
 │── ATM.py  
 │── storage_pg.py  
 │── utils.py  
+```
