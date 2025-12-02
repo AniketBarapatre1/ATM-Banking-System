@@ -37,9 +37,10 @@ All operations performed using `psycopg2`.
 
 ## 🗂 Project Structure
 ```
-
 ATM/
-│── ATM.py  
-│── storage_pg.py  
-│── utils.py  
+│
+├── ATM.py             # Main ATM application
+├── storage_pg.py      # PostgreSQL DB operations (accounts, transactions)
+├── utils.py           # Helper utility functions
+└── .gitignore         # Ignore rules for sensitive files & cache
 ```
