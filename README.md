@@ -33,6 +33,17 @@ Tables used:
 
 All operations performed using `psycopg2`.
 
+## 🔐 Security
+- PINs are **never stored in plain text**
+- Uses PBKDF2 hashing with salt via `hashlib`
+- Prevents unauthorized access with multiple verification layers
+
+## 📁 Tech Stack
+- **Python 3**
+- CSV / File Handling  
+- `hashlib` (PBKDF2)  
+- `datetime`
+
 ---
 
 ## 🗂 Project Structure
